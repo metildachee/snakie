@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="">
+  <link rel="icon" href="img/snake.png" type="image/icon type">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Snakie</title>
+</head>
+
+<body>
+    <input id="toggle" type="checkbox" checked data-toggle="toggle" data-style="android" data-onstyle="info">    
+    <div class="container">
+        <div class="row">
+            <div class="col-8 m-0 p-0">
+                <div id="grid"></div>
+            </div>
+            <div class="col-4 m-0 right-col">
+                <div class="points"><p id="points">0</p></div>
+                <div class="tabs">
+                    <ul class="nav nav-tabs d-flex justify-content-between modes">
+                        <li class="button"><a id="easy-button" data-toggle="tab" href="#easy">Easy</a></li>
+                        <li class="button"><a id="mod-button" data-toggle="tab" href="#mod">Moderate</a></li>
+                        <li class="button"><a id="diff-button" data-toggle="tab" href="#diff">Difficult</a></li>
+                        <li class="button"><a id="freak-button" data-toggle="tab" href="#freak">Freak!</a></li>
+                        <li class="button"><a id="hell-button" data-toggle="tab" href="#hell">Hell</a></li>
+                    </ul>
+
+                    <div class="tab-content display-score">
+                    <div id="easy" class="tab-pane active">
+                        <i class="fas fa-clipboard"></i>
+                        <p class="p-0" id="easy-highscore">Start playing to get a highscore!</p>
+                        <div></div>
+                    </div>
+                    <div id="mod" class="tab-pane fade">
+                        <i class="fas fa-clipboard"></i>
+                        <p id="mod-highscore">Start playing to get a highscore!</p>
+                        <div></div>
+                    </div>
+                    <div id="diff" class="tab-pane fade">
+                        <i class="fas fa-clipboard"></i>
+                        <p id="diff-highscore">Start playing to get a highscore!</p>
+                        <div></div>
+                    </div>
+                    <div id="freak" class="tab-pane fade">
+                        <i class="fas fa-clipboard"></i>
+                        <p id="freak-highscore">Start playing to get a highscore!</p>
+                        <div></div>
+                    </div>
+                    <div id="hell" class="tab-pane fade">
+                        <i class="fas fa-clipboard"></i>
+                        <p id="hell-highscore">Start playing to get a highscore!</p>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+  <script type="text/javascript" src="js/blocks.js"></script>
+  <script type="text/javascript" src="js/game.js"></script>
+  <script type="text/javascript" src="js/snake.js"></script>
+  <script type="text/javascript" src="js/cookies.js"></script>
+  <script type="text/javascript" src="js/popup.js"></script>
+  <script type="text/javascript" src="js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700&display=swap');
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('fonts/digital-clock/digital-7.ttf');
+ }
+
+:root {
+  --rows: 21;
+  --cols: 27;
+}
+
+body {
+  margin-bottom: 0px;
+  position: relative;
+  background-image: linear-gradient(rgb(240,122,175), rgb(181,136,202));
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.2 !important;
+  /* padding-top: 4rem; */
+  padding-top: 1.5rem;
+  padding-bottom: 4.5rem;
+}
+
+/* ALL BOUT DAT RIGHT 'COL */
+
+.right-col {
+  background-image: linear-gradient(rgb(143,142,244), rgb(29,39,48));
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.points {
+    height: 30%;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'digital-clock-font';
+    text-shadow: 0 0 10px #fff;
+    font-size: 20vmin;
+    background-image: linear-gradient(to top left, rgba(255, 255, 255, .05), rgba(255, 255, 255, .3), rgba(255, 255, 255, .05));
+}
+
+.toggle.android { border-radius: 0px;}
+.toggle.android .toggle-handle { border-radius: 0px; }
+
+.btn-info { 
+  background-color: rgb(91,124,166); 
+  border-color: rgb(91,124,166);
+  border-radius: 0px;
+}
+
+.btn-default {
+  background-color: #ffc0ad;
+  border-color: #ffc0ad;
+  border-radius: 0px;
+  color: #271c19;
+}
+
+.toggle {
+  /* top: -3.5rem; */
+  top: -.5rem;
+  left : 94vw;
+  box-shadow: 1px 1px 3px black;
+}
+
+.modes li a {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.modes { padding-top: 10px; }
+.modes li { padding-bottom: 10px; }
+.modes li a:hover { text-decoration: none; }
+#easy-button:hover { background-color: rgba(209,206,253,.3); }
+#mod-button:hover { background-color: rgba(63,166,145, .5); }
+#diff-button:hover { background-color: rgba(143,142,244, .3); }
+#freak-button:hover { background-color: rgba(240,122,175, .3); }
+#hell-button:hover { background-color: rgba(36,43,54,.3); }
+
+.button { padding-top: 10px; }
+.fa-clipboard { margin: 20px; }
+.fa-award { margin-right: 10px; }
+.tab-pane { height: 100%; }
+.nav-tabs { border: none !important; }
+
+.display-score {
+  text-align: center;
+  height: 41.5vh;
+}
+
+/* ALL BOUT DAT GRID */
+
+#grid {
+  height: 80vh;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(46,52,66);
+  display: grid;
+  grid-template-rows: repeat(var(--rows), 1fr);
+  grid-template-columns: repeat(var(--cols), 1fr);
+}
+
+.cell { background-color: black; }
+#grid div:nth-child(odd) { background-color: rgb(36,43,54) }
+
+.snake {
+  background-color: #e78fb3 !important;
+  border: 1px solid #e78fb3;
+}
+
+.food {
+  background-image: url("img/hamburger.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.barrier {
+    background-image: url("img/brickwall.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1200px) {
+  .display-score { height: 35vh; }
+}
+
+@media only screen and (max-width: 1000px) {
+  :root {
+    --rows: 27;
+    --cols: 17;
+  }
+  .toggle { left: 90vw; }
+}
+
+@media only screen and (max-width: 900px) {
+  :root {
+    --rows: 25;
+    --cols: 17;
+  }
+  body { font-size: 10px; }
+  .toggle { left: 90vw; }
+}
+
+@media only screen and (max-width: 770px) {
+  .display-score { height: 30vh; }
+}
+
+@media only screen and (max-width: 700px) {
+  :root {
+    --rows: 27;
+    --cols: 17;
+  }
+  /* .display-score { height: 30vh; } */
+
+  /* SEE EVERYTHING */
+  /* #grid {
+    width: 100%;
+    height: 80vh;
+  }
+  .right-col {
+    width: 50vh;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    body {
+    padding-top : 3rem;
+    padding-bottom: 5rem;
+    background-image: linear-gradient(rgb(239,122,175), rgb(208,130,190));
+    font-size: 10px;
+  }
+  .toggle { left: 90vw; } */
+
+  /* ONLY DISPLAY THE GRID  */
+  #grid {
+    width: 81vw;
+    height: 80vh;
+  }
+  .toggle { display: none; } 
+  .right-col { display: none; }
+
+  body {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+/* FIREFOX  */
+
+@-moz-document url-prefix() {
+
+  @media only screen and (max-width: 770px ) {
+    .display-score { height: 30vh; }
+  }
+  @media only screen and (max-width: 700px) {
+    .container { 
+      padding-left: 2rem;
+    }
+    :root {
+      --rows: 17;
+      --cols: 17;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container { padding-left: 50px;}
+  }
+  @media only screen and (max-width: 500px) {
+    .container {
+      padding-left: 4rem;
+    }
+    :root {
+      --rows: 23;
+      --cols: 17;
+    }
+  }
+}
