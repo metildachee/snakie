@@ -38,7 +38,7 @@ function cookieDoesNotExistPopup() {
             setCookie("username", username, 1);
             Swal.fire({
                 title: `Instructions, ${username}`,
-                html: `<img src="https://raw.githubusercontent.com/metildachee/snake/master/img/brickwall.png?token=APQA23QCMMY5U5MYYVTZPRS7ALFBM"> Represents a barrier, avoid them at all costs! </br><img src="https://raw.githubusercontent.com/metildachee/snake/master/img/hamburger.png?token=APQA23X63WVDEPO7MQPIJHK7ALFEU"> Represents a snakie's food, eat them!`,
+                html: `<img src="https://raw.githubusercontent.com/metildachee/snakie/master/img/brickwall.png"> Represents a barrier, avoid them at all costs! </br><img src="https://raw.githubusercontent.com/metildachee/snakie/master/img/hamburger.png"> Represents a snakie's food, eat them!`,
                 background: `linear-gradient(rgba(209,206,253,.9), rgba(255,255,255,.8))`,
                 confirmButtonColor: "rgb(63,166,145)",
                 allowOutsideClick: false,
