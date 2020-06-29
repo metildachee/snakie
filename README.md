@@ -1,7 +1,6 @@
 ## Snakie!
 [Snakie](https://metildachee.github.io/snakie/) is a browser based, classic snake game.
 
-## Gameplay
 The objective of the game is to eat as many burgers as possible. There are a total of 5 levels, and players can select the difficulty level as they wish. 
 
 ## Features
