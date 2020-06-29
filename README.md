@@ -5,9 +5,9 @@ The objective of the game is to eat as many burgers as possible. There are a tot
 
 ## Features
 * Night/day mode
+    <img src="img/snake.gif"/>
     * Players can switch to their preferred mode by toggling the top right button
     
-    <img src="img/snake.gif"/>
 * Basic gameplay
     * Players can visit [Snakie](https://metildachee.github.io/snakie/) to play the classic game. The game is cookie based but scores will not be recorded.
     * Note, this is the only option if you choose to play the game online.
