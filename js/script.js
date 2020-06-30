@@ -105,13 +105,13 @@ function updateScoreboard() {
     lvls[mode].getScores().forEach( score=> {
         const li = document.createElement("p");
         li.innerHTML = `<i class="fas fa-award"></i>  ${score[0]} - ${score[1]}`;
-        // tabPanels[mode].children[2].appendChild(li);
         $(li).hide().appendTo(tabPanels[mode].children[2]).fadeIn(1000);
     })
 }
 
 function endGame() {
     currKey = "";
+    prevKey = "";
     cellElements.forEach( cell=> {
         cell.classList.remove("food");
         cell.classList.remove("barrier");
