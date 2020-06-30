@@ -35,6 +35,7 @@ function checkGame() {
         endGame();
         showEndPopup();
         updateScoreboard();
+        updateGist();
         return false;
     }
     if (snake.hits(foods)) {
@@ -50,6 +51,7 @@ function checkGame() {
 
 function startSession() {
     renderCells();
+    getGist();
     renderButtons();
     window.dark = true;
 
