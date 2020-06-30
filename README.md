@@ -11,10 +11,12 @@ The objective of the game is to eat as many burgers as possible. There are a tot
 
 ## Snakie version 1
 * Night/day mode
-    * Players can switch to their preferred mode by toggling the top right button
-    <img src="img/night_day_easy.gif"/>
 
-    <img src="img/night_day_hell.gif"/>
+Players can switch to their preferred mode by toggling the top right button
+
+<img src="img/night_day_easy.gif"/>
+
+<img src="img/night_day_hell.gif"/>
 
 ### Installation
 Players can visit [Snakie](https://metildachee.github.io/snakie/) to play the classic game. Usernames are recorded as cookies.
@@ -44,3 +46,8 @@ As the levels get more difficult, the speed of the snake increases and barriers 
 * Note, this is the only option if you choose to play the game online.
 * Also note, this game is not supported on mobile.
 * Scores are not recorded.
+
+## Many thanks!
+* [SweetAlert2](https://sweetalert2.github.io/)
+* [Animate.css](https://animate.style/)
+* [Cookies](https://www.w3schools.com/js/js_cookies.asp)
