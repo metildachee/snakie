@@ -16,7 +16,6 @@ body {
   height: 100vh;
   font-family: 'Lato', sans-serif;
   line-height: 1.2 !important;
-  /* padding-top: 4rem; */
   padding-top: 1.5rem;
   padding-bottom: 4.5rem;
 }
@@ -152,7 +151,6 @@ body {
     --rows: 27;
     --cols: 17;
   }
-  /* .display-score { height: 30vh; } */
 
   /* SEE EVERYTHING */
   /* #grid {
