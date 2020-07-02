@@ -7,18 +7,19 @@ The objective of the game is to eat as many burgers as possible. There are a tot
 - [Snakie!](#snakie-)
   * [Gameplay](#gameplay)
   * [Snakie version 1](#snakie-version-1)
-    + [Installation](#installation)
-    + [Basic gameflow](#basic-gameflow)
+    + [How to play?](#how-to-play-)
+    + [How does the game work?](#how-does-the-game-work-)
     + [Limitations](#limitations)
   * [Snakie version 2](#snakie-version-2)
-    + [Installation](#installation-1)
-    + [Basic gameflow](#basic-gameflow-1)
+    + [How to play?](#how-to-play--1)
+    + [How does the game work?](#how-does-the-game-work--1)
       - [Single player mode](#single-player-mode)
         * [Login using Github](#login-using-github)
         * [Standard username](#standard-username)
       - [Leaderboard mode](#leaderboard-mode)
         * [Login using Github](#login-using-github-1)
     + [Limitations](#limitations-1)
+  * [What can be done better?](#what-can-be-done-better-)
   * [Many thanks!](#many-thanks-)
 
 ## Snakie version 1
@@ -30,10 +31,10 @@ Players can switch to their preferred mode by toggling the top right button
 
 <img src="img/night_day_hell.gif"/>
 
-### Installation
+### How to play?
 Players can visit [Snakie](https://metildachee.github.io/snakie/) to play the classic game. Usernames are recorded as cookies.
 
-### Basic gameflow
+### How does the game work?
 When the game first starts, players are prompted for a username
 
 <img src="img/master/start_master.gif"/>
@@ -62,15 +63,15 @@ As the levels get more difficult, the speed of the snake increases and barriers 
 ## Snakie version 2
 Snakie now features a single player mode and a leaderboard mode with score recording ability.
 
-### Installation
+### How to play?
 Players can visit [Snakie version 2](https://snakie.herokuapp.com/) to play.
 
-### Basic gameflow
+### How does the game work?
 
 #### Single player mode
 Players can choose to either:
 
-1. Login with Github. This allows the user to record their scores on [Gist](https://gist.github.com/metildachee/d446fc2c12bad5a95985699ae8fcb40c)
+1. Login with Github. This allows the user to record their scores on [Gist](https://gist.github.com/), [sample](https://gist.github.com/metildachee/d13d4c3c249223f30282c6d2942d3b74)
 
 2. Or play with a standard username.
 
@@ -80,7 +81,7 @@ Players are prompted for their Github username and password.
 
 <img src="img/version-4/single_github_login_gist_created.gif"/>
 
-After which, a snake_logs Gist will be created; should the player not have played before, the file will be created. 
+After which, a `snake_logs` Gist will be created; should the player not have played before, the file will be created. 
 
 Should the file already exist, previous scores will be updated in the highscore board.
 
@@ -98,16 +99,16 @@ This is [Snakie version 1](#snakie-version-1)
 
 #### Leaderboard mode
 
-This mode allows anyone to make a highscore on the leaderboard.
+This mode allows anyone to make a highscore on the [leaderboard](https://gist.github.com/metildachee/4236c7cab8ae755ce2800703d6588d68).
 
 ##### Login using Github 
 To play leaderboard mode, players must login to Github.
 
-If the player has not played before, they will be given instructions on how to play.
+A new player will be given instructions on how to play.
 
 <img src="img/version-4/welcome_page.gif"/>
 
-If the player has played before, they will be shown a welcome page and their previous scores will be updated.
+A seasoned player will be shown a welcome page and their scores will be updated.
 
 <img src="img/master/has_cookie.gif"/>
 
@@ -125,6 +126,8 @@ If the player is already in the top rank... congrats!
 3. Slow performance and many deprecations
 4. Single player must have at least 1 Gist on their account, otherwise application will have unpredictable behaviour
 5. No mobile too 😅
+
+## What can be done better?
 
 ## Many thanks!
 * [SweetAlert2](https://sweetalert2.github.io/)
