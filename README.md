@@ -72,7 +72,7 @@ Players can visit [Snakie version 2](https://snakie.herokuapp.com/) to play.
 #### Single player mode
 Players can choose to either:
 
-1. Login with Github. This allows the user to record their scores on [Gist](https://gist.github.com/), [sample](https://gist.github.com/metildachee/d13d4c3c249223f30282c6d2942d3b74)
+1. Login with Github. This allows the user to record their scores on [Gist](https://gist.github.com/), please see [sample](https://gist.github.com/metildachee/d13d4c3c249223f30282c6d2942d3b74) here
 
 2. Or play with a standard username.
 
@@ -134,7 +134,7 @@ This version would allow multiple players to play at the same time.
 <img src="img/version-4/experimenting.gif"/>
 
 ## What can be done better?
-Wayyy... too many, these are just the one top of my head.
+Wayyy... too many, these are just the ones on the top of my head.
 * UX orientated
 * Writing better code
 * Staying calm
