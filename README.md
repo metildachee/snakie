@@ -4,14 +4,14 @@ Snakie is a browser based, classic snake game.
 ## Gameplay
 The objective of the game is to eat as many burgers as possible. There are a total of 5 levels, and players can select the difficulty level as they wish. 
 
-- [Snakie!](#snakie-)
+- [Snakie!](#snakie)
   * [Gameplay](#gameplay)
-  * [Snakie version 1](#snakie-version-1)
-    + [How to play?](#how-to-play-)
-    + [How does the game work?](#how-does-the-game-work-)
+  * [Snakie version 1 - Basic](#snakie-version-1---basic)
+    + [How to play?](#how-to-play)
+    + [How does the game work?](#how-does-the-game-work)
     + [Limitations](#limitations)
-  * [Snakie version 2](#snakie-version-2)
-    + [How to play?](#how-to-play--1)
+  * [Snakie version 2 - Record scores](#snakie-version-2---record-scores)
+    + [How to play?](#how-to-play-1)
     + [How does the game work?](#how-does-the-game-work--1)
       - [Single player mode](#single-player-mode)
         * [Login using Github](#login-using-github)
@@ -19,10 +19,11 @@ The objective of the game is to eat as many burgers as possible. There are a tot
       - [Leaderboard mode](#leaderboard-mode)
         * [Login using Github](#login-using-github-1)
     + [Limitations](#limitations-1)
-  * [What can be done better?](#what-can-be-done-better-)
-  * [Many thanks!](#many-thanks-)
+  * [Snakie version 3 - Real time multi-player (coming soon)](#snakie-version-3---real-time-multi-player--coming-soon-)
+  * [What can be done better?](#what-can-be-done-better)
+  * [Many thanks!](#many-thanks)
 
-## Snakie version 1
+## Snakie version 1 - Basic
 * Night/day mode
 
 Players can switch to their preferred mode by toggling the top right button
@@ -60,7 +61,7 @@ As the levels get more difficult, the speed of the snake increases and barriers 
 * Also note, this game is not supported on mobile.
 * Scores are not recorded.
 
-## Snakie version 2
+## Snakie version 2 - Record scores
 Snakie now features a single player mode and a leaderboard mode with score recording ability.
 
 ### How to play?
@@ -127,7 +128,18 @@ If the player is already in the top rank... congrats!
 4. Single player must have at least 1 Gist on their account, otherwise application will have unpredictable behaviour
 5. No mobile too 😅
 
+## Snakie version 3 - Real time multi-player (coming soon)
+This version would allow multiple players to play at the same time.
+
+<img src="img/version-4/experimenting.gif"/>
+
 ## What can be done better?
+Wayyy... too many, these are just the one top of my head.
+* UX orientated
+* Writing better code
+* Staying calm
+* Being adventurous
+* .... ++ 
 
 ## Many thanks!
 * [SweetAlert2](https://sweetalert2.github.io/)
