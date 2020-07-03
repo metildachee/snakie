@@ -73,7 +73,7 @@ The entire premise of the game is stacked on the fact that the window is being r
 
 I knew that I wanted to implement different amounts of food and barrier in different levels. These variables had to be flexible, and that I didn't want the hassle of declaring objects. What if I wanted 20 blocks in this level but only 1 in the next level? I needed something that abstracted these details.
 
-With this, using OOP made sense as I could use a class `Block` with `(x, y)` coordinate to extend to `Food` and `Barrier`. In fact, `Snake` is nothing but a container of different `Block`s.
+With this, using OOP made sense as I could use a class `Block` with `(x, y)` coordinate to extend to `Food` and `Barrier`. In fact, `Snake` is nothing but a container of different `Block`.
 
   * Snake
 
