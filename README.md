@@ -154,7 +154,7 @@ If the player is already in the top rank... congrats!
 
 ### What was the motivation?
 
-I created this version purely on the obsession of recording scores. It occured to me that if I had a file online that everyone could read and write to, perhaps I could create a makeshift leaderboard (?) without a hassle of a database 😅😅😅😅😅😅.
+I created this version purely on the obsession of recording scores. I thought that if I had a file online that everyone could read and write to, perhaps I could create a makeshift leaderboard (?) without a hassle of a database 😅😅😅😅😅😅.
 
 That was the entire motivation behind this rabbit hole into the Github API. After reading and trying it out, I realise that my original purpose couldn't be accomplished without compromising security. Hence, the inclusion of oAuth and writing to user's personal Gist. It was a tragic discover but I'm glad that I tried it out 😆
 
