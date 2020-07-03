@@ -19,6 +19,7 @@ The objective of the game is to eat as many burgers as possible. There are a tot
         * [Standard username](#standard-username)
       - [Leaderboard mode](#leaderboard-mode)
         * [Login using Github](#login-using-github-1)
+    + [What was the approach?](#what-was-the-approach-1)
     + [Limitations](#limitations-1)
   * [Snakie version 3 - Real time multi-player (coming soon)](#snakie-version-3---real-time-multi-player-coming-soon)
   * [What can be done better?](#what-can-be-done-better)
