@@ -68,7 +68,7 @@ For the aesthetics, I wanted to try something different. Usually I tended to som
 
 The entire premise of the game is stacked on the fact that the window is being rendered every xxx milliseconds. Knowing this, I really wanted to try different speed levels, which added more contrast to the different levels. This was later used to determine the building characteristics of different levels.
 
-* Game setup - OOP
+* Game setup - the motivation to use OOP
   * Block - Food, Barrier, Snake
 
 I knew that I wanted to implement different amounts of food and barrier in different levels. These variables had to be flexible, and that I didn't want the hassle of declaring objects. What if I wanted 20 blocks in this level but only 1 in the next level? I needed something that abstracted these details.
