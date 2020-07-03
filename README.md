@@ -59,26 +59,32 @@ As the levels get more difficult, the speed of the snake increases, the snake gr
 
 ### What was the approach?
 * User interface
+
 My intent was to create a flexible snake game where the screen size determined the grid size. Hence, a grid with variables `rows` and `cols` was used. These variables adjusted the actual grid. These variables are then ported over to Javascript for game logic. 
 
 For the aesthetics, I wanted to try something different. Usually I tended to something cuter, but this time around I wanted to try something a bit more cyber-punkish. It's not my forte but... Never try never know! 🤣
 
 * Premise
+
 The entire premise of the game is stacked on the fact that the window is being rendered every xxx milliseconds. Knowing this, I really wanted to try different speed levels, which added more contrast to the different levels. This was later used to determine the building characteristics of different levels.
 
 * Game setup - OOP
   * Block - Food, Barrier, Snake
+
 I knew that I wanted to implement different amounts of food and barrier in different levels. These variables had to be flexible, and that I didn't want the hassle of declaring objects. What if I wanted 20 blocks in this level but only 1 in the next level? I needed something that abstracted these details.
 
 With this, using OOP made sense as I could use a class `Block` with `(x, y)` coordinate to extend to `Food` and `Barrier`. In fact, `Snake` is nothing but a container of different `Block`s.
 
   * Snake
+
 The essence of the snake is that when it moves, the last element appears on the head of the snake. This reminded me of a `Deque`. So I applied the same principles.
 
   * Level
+
 Initially, I didn't use a class for the different levels and instead, wrote many switch cases. Slowly, this became annoying as I had to keep track of all the global variables like `SPEED`, `EXPAND_FACTOR`, `NUM_OF_FOOD`... You get it. It made more sense to use a single `Levels` array to store these `Level` which held different properties. This was a class that I didn't think I needed.. But served meaningfully once created.
 
   * Game?
+
 I also considered making a `Game` class to keep track of information like the current level the user is in, if they are viewing from night mode, the player's username... etc, loose variables. I opted out of it as I considered myself slowly becoming OOP-obsessed 😅
 
 ### Limitations
