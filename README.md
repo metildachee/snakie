@@ -1,5 +1,5 @@
 # Snakie!
-Snakie is a browser based, classic snake game.
+Snakie is a web browser based, classic snake game.
 
 ## Gameplay
 The objective of the game is to eat as many burgers as possible. There are a total of 5 levels, and players can select the difficulty level as they wish. 
@@ -57,8 +57,7 @@ As the levels get more difficult, the speed of the snake increases and barriers 
 <img src="img/master/hell.gif"/>
 
 ### Limitations
-* Note, this is the only option if you choose to play the game online.
-* Also note, this game is not supported on mobile.
+* Note, this game is not supported on mobile.
 * Scores are not recorded.
 
 ## Snakie version 2 - Record scores
@@ -96,7 +95,7 @@ Logs are updated as the player plays.
 
 ##### Standard username
 
-This is [Snakie version 1](#snakie-version-1)
+See [Snakie version 1](#snakie-version-1)
 
 #### Leaderboard mode
 
@@ -134,11 +133,11 @@ This version would allow multiple players to play at the same time.
 <img src="img/version-4/experimenting.gif"/>
 
 ## What can be done better?
-Wayyy... too many, these are just the ones on the top of my head.
-* UX orientated
-* Writing better code
 * Staying calm
 * Being adventurous
+* UI/UX
+* Efficienct and optimised code
+* OOP or not?
 * .... ++ 
 
 ## Many thanks!
