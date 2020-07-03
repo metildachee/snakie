@@ -48,7 +48,7 @@ The game starts off easy, with the snake moving slowly and having more hamburger
 
 <img src="img/master/easy.gif"/>
 
-As the levels get more difficult, the speed of the snake increases and barriers are included..
+As the levels get more difficult, the speed of the snake increases, the snake grows and barriers are included..
 
 <img src="img/master/difficult.gif"/>
 
@@ -121,11 +121,11 @@ If the player is already in the top rank... congrats!
 <img src="img/version-4/multi_player_logs_updated.gif"/>
 
 ### Limitations 
-1. Grossly insecure; iykyk
-2. Blatantly inadequate approach
-3. Slow performance and many deprecations
-4. Single player must have at least 1 Gist on their account, otherwise application will have unpredictable behaviour
-5. No mobile too 😅
+1. Insecure; iykyk
+2. Inadequate approach
+3. Slow performance
+4. Single player must have at least 1 Gist on their account
+5. Not suitable for playing on mobile devices
 
 ## Snakie version 3 - Real time multi-player (coming soon)
 This version would allow multiple players to play at the same time.
@@ -133,8 +133,6 @@ This version would allow multiple players to play at the same time.
 <img src="img/version-4/experimenting.gif"/>
 
 ## What can be done better?
-* Staying calm
-* Being adventurous
 * UI/UX
 * Efficienct and optimised code
 * OOP or not?
